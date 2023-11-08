@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section
       name="home"
-      className="w-full h-screen landscape:h-full bg-zinc-200 flex flex-col justify-between pt-24 2xl:pt-0"
+      className="w-full h-full bg-zinc-200 flex flex-col justify-between pt-24"
     >
       <div className="grid min-[920px]:grid-cols-2 max-w-[1240px] 2xl:max-w-[2000px] m-auto">
         <div className="flex flex-col justify-center md:items-start min-[425px]:text-center min-[920px]:text-start w-full px-2 py-8">
