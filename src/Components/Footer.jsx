@@ -5,7 +5,7 @@ import{FaFacebook, FaGithub, FaInstagram, FaTwitter,FaTwitch} from "react-icons/
 function Footer() {
   return (
     <footer className="w-full mt-24 bg-slate-900 text-gray-300 py-8 px-2">
-      <div className="max-w-[1240px] 2xl:max-w-[1800px] mx-auto grid gap-y-8 grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8 2xl:text-2xl">
+      <div className="max-w-[1240px] min-[2000px]:max-w-[1800px] mx-auto grid gap-y-8 grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8 min-[2000px]:text-2xl">
         <div>
           <h6 className="font-bold uppercase pt-2">Solutions</h6>
           <ul>

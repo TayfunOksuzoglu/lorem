@@ -18,7 +18,7 @@ function Navbar() {
     <nav className="w-full h-20 z-10 bg-zinc-200 fixed drop-shadow-lg ">
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
-          <h1 className="text-3xl font-bold mr-4 sm:text-4xl 2xl:text-5xl tracking-widest">
+          <h1 className="text-3xl font-bold mr-4 sm:text-4xl min-[2000px]:text-5xl tracking-widest">
             <Link
               className="cursor-pointer"
               to="home"
@@ -29,27 +29,27 @@ function Navbar() {
             </Link>
           </h1>
           <ul className="hidden min-[920px]:flex">
-            <li className="cursor-pointer m-2 2xl:text-2xl">
+            <li className="cursor-pointer m-2 min-[2000px]:text-2xl">
               <Link to="home" smooth={true} duration={500}>
                 Home
               </Link>
             </li>
-            <li className="cursor-pointer m-2 2xl:text-2xl">
+            <li className="cursor-pointer m-2 min-[2000px]:text-2xl">
               <Link to="about" smooth={true} offset={-200} duration={500}>
                 About
               </Link>
             </li>
-            <li className="cursor-pointer m-2 2xl:text-2xl">
+            <li className="cursor-pointer m-2 min-[2000px]:text-2xl">
               <Link to="support" smooth={true} offset={-80} duration={500}>
                 Support
               </Link>
             </li>
-            <li className="cursor-pointer m-2 2xl:text-2xl">
+            <li className="cursor-pointer m-2 min-[2000px]:text-2xl">
               <Link to="platforms" smooth={true} offset={-140} duration={500}>
                 Platforms
               </Link>
             </li>
-            <li className="cursor-pointer m-2 2xl:text-2xl">
+            <li className="cursor-pointer m-2 min-[2000px]:text-2xl">
               <Link to="pricing" smooth={true} offset={-80} duration={500}>
                 Pricing
               </Link>
@@ -57,10 +57,10 @@ function Navbar() {
           </ul>
         </div>
         <div className="hidden min-[920px]:flex mr-4">
-          <button className="whitespace-nowrap border-none bg-transparent text-black mr-4 2xl:text-2xl">
+          <button className="whitespace-nowrap border-none bg-transparent text-black mr-4 min-[2000px]:text-2xl">
             Sign In
           </button>
-          <button className="px-8 py-3 whitespace-nowrap 2xl:text-2xl">
+          <button className="px-8 py-3 whitespace-nowrap min-[2000px]:text-2xl">
             Sign Up
           </button>
         </div>
