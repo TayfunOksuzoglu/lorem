@@ -1,6 +1,6 @@
-# Project Title
+# LOREM
 
-This project is a practice website. It includes various sections such as a navbar, a hero section, an about section, a support section, an all-in-one platform section, a pricing section, and a footer. The website is built using React and includes components for each section. It features a responsive design and a modern, sleek UI.
+The project includes various sections such as a navbar, a hero section, an about section, a support section, an all-in-one platform section, a pricing section, and a footer. The website is built using React and includes components for each section. It features a responsive design.
 
 ## Installation
 
